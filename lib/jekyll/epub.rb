@@ -200,7 +200,7 @@ module Jekyll
         'language' => 'en',
         'identifier' => UUID.generate
       }
-    } )
+    } 
     
     # Generate a Jekyll::Epub configuration Hash by merging the default options
     # with anything in _epub.yml, and adding the given options on top
