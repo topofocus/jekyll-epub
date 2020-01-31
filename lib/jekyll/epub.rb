@@ -191,7 +191,8 @@ module Jekyll
   class Epub
     include Jekyll::Filters
     
-    DEFAULTS = Jekyll::DEFAULTS.merge( {
+#    DEFAULTS = Jekyll::DEFAULTS.merge( {
+       DEFAULTS = {
       'destination' => File.join('.', '_epub', 'src'),
       'permalink'   => '/:title.html',
       'epub' => {
